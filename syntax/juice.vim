@@ -16,7 +16,7 @@ syn match juiceNumber "\d\+" contained
 
 syn match juiceVariable "\$[a-z0-9A-Z_]\+" contained
 
-syn keyword juiceKeyword as if elseif foreach for while switch case unless block yield extends contained
+syn keyword juiceKeyword as if elseif foreach for while switch case unless block yield extends else contained
 
 syn match juiceEnd "/\w\+" contained
 syn match juiceEnd "end\w\+" contained
